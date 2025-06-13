@@ -46,3 +46,9 @@ Upload:
 
 ## ✅ Outcome
 Successfully detected sensitive PAN card data in files stored in S3 using a custom regex identifier in AWS Macie.
+
+## 🖼️ AWS Macie Job Result Screenshot
+
+![Macie Result](macie-job-result.png)
+
+
