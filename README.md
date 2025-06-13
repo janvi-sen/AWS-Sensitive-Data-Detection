@@ -16,17 +16,23 @@ Use AWS Macie to scan S3 documents and identify sensitive data such as PAN numbe
 Upload:
 - A `.csv` file with sensitive data  
 - A `.txt` file  
+![](images/step1.png)
 
 ### 2. Enable AWS Macie
 - Go to AWS Console → Macie → Enable if not done
+![](images/step2.png)
+
 
 ### 3. Create a New Scan Job
 - Select the uploaded S3 bucket  
 - Set Job Frequency: One-time  
 - Include file extensions: `.csv`  
+![](images/step3.png)
 
 ### 4. Configure Data Identifiers
 - Select **Custom** identifiers
+![](images/step4.png)
+
 
 ### 5. Create Custom Identifier
 - Go to “Manage Custom Identifiers”
